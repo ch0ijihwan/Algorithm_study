@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_Input_OutPut_arithmetic_operations/1_Input_OutPut_arithmetic_operations.iml" filepath="$PROJECT_DIR$/1_Input_OutPut_arithmetic_operations/1_Input_OutPut_arithmetic_operations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Algorithm.iml" filepath="$PROJECT_DIR$/.idea/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STEP01/STEP01.iml" filepath="$PROJECT_DIR$/STEP01/STEP01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STEP02/STEP02.iml" filepath="$PROJECT_DIR$/STEP02/STEP02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STEP03/STEP03.iml" filepath="$PROJECT_DIR$/STEP03/STEP03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STEP04_while/STEP04_while.iml" filepath="$PROJECT_DIR$/STEP04_while/STEP04_while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STEP05_Array/STEP05_Array.iml" filepath="$PROJECT_DIR$/STEP05_Array/STEP05_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STEP06_function/STEP06_function.iml" filepath="$PROJECT_DIR$/STEP06_function/STEP06_function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STEP07_Str/STEP07_Str.iml" filepath="$PROJECT_DIR$/STEP07_Str/STEP07_Str.iml" />
+    </modules>
+  </component>
+</project>
