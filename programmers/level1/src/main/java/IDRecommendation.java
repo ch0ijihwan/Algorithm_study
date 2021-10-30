@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.IntStream;
-
 //https://programmers.co.kr/learn/courses/30/lessons/72410
 public class IDRecommendation {
     //1단계 new_id의 모든 대문자를 대응되는 소문자로 치환합니다.
@@ -18,14 +14,14 @@ public class IDRecommendation {
         String lower_id = new_id.toLowerCase();
 
         //2
-        String str = lower_id.replaceAll("[^a-z0-9-_.]","");
+        String str = lower_id.replaceAll("[^a-z0-9-_.]", "");
 
         //3
-       str = str.replaceAll("[.]{2,}",".");
+        str = str.replaceAll("[.]{2,}", ".");
 
-       //4
-        str = str.replaceAll("^[.]","");
-        str = str.replaceAll("[.]$","");
+        //4
+        str = str.replaceAll("^[.]", "");
+        str = str.replaceAll("[.]$", "");
 
         //5
         if (str.length() == 0) {
@@ -36,8 +32,8 @@ public class IDRecommendation {
 
         //6
         if (id_5.length() > 15) {
-           id_5 = id_5.substring(0,15);
-           id_5 = id_5.replaceAll("[.]$","");
+            id_5 = id_5.substring(0, 15);
+            id_5 = id_5.replaceAll("[.]$", "");
         }
 
         //7
@@ -46,7 +42,6 @@ public class IDRecommendation {
                 id_5 += id_5.charAt(id_5.length() - 1);
             }
         }
-
         String answer = id_5;
 
         return answer;
@@ -57,6 +52,4 @@ public class IDRecommendation {
 
         System.out.println(IDRecommendation(input));
     }
-
-
 }
