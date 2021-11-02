@@ -4,7 +4,6 @@ import java.util.Set;
 public class PickTwoAndAdd {
     private int[] numbers;
 
-
     public PickTwoAndAdd(int[] numbers) {
         this.numbers = numbers;
     }
